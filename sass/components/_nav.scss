@@ -1,0 +1,12 @@
+.nav__list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.nav__list-link {
+    display: flex;
+    align-items: center;
+    line-height: 100%;
+    transition: all 0.3s ease-in-out;
+}

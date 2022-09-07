@@ -1,0 +1,16 @@
+.earnings-block {
+    position: relative;
+    margin-bottom: 80px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+}
+.anchor {
+    position: absolute;
+    top: -160px;
+}

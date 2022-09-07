@@ -1,0 +1,46 @@
+.localisation-section {
+    position: relative;
+}
+
+.localisation__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 570px;
+}
+
+.localisation__column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.localisation__item {
+    position: relative;
+    padding-left: 30px;
+    &:before {
+        content: "";
+
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        background-color: $accent-color;
+        border-radius: 50%;
+        min-width: 8px;
+        min-height: 8px;
+        max-width: 8px;
+        max-height: 8px;
+
+        transform: translateY(-50%);
+    }
+}
+
+.localisation__svg {
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    z-index: -1;
+    fill: rgba($secondary-color1, 0.25);
+    max-height: 1078px;
+    max-width: 1024px;
+    transform: translate(50%, -50%);
+}

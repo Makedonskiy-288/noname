@@ -1,0 +1,40 @@
+@import "./base/colors";
+@import "./base/reset";
+@import "./base/fonts";
+@import "./base/base";
+@import "./base/container";
+@import "./base/section";
+
+@import "./utils/swup.scss";
+@import "./utils/elipse";
+
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/hero-bg";
+@import "./components/start-btn";
+@import "./components/active-page";
+@import "./components/goTop";
+
+@import "./layouts/header";
+@import "./layouts/footer";
+
+@import "./layouts/index/hero";
+@import "./layouts/index/about";
+@import "./layouts/index/founder";
+@import "./layouts/index/achiev";
+@import "./layouts/index/values";
+@import "./layouts/index/products";
+@import "./layouts/index/localisation";
+
+@import "./layouts/earnings/earnings";
+
+@import "./layouts/company/company";
+
+@import "./layouts/news/news";
+
+@import "./layouts/contacts/contacts";
+@import "./layouts/contacts/location";
+
+@import "./layouts/policy/policy";
+
+@import "./layouts/user/invest";

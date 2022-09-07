@@ -1,0 +1,16 @@
+.section {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+
+    &:last-child {
+        padding-bottom: 150px;
+    }
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.4em;
+    margin-bottom: 100px;
+}

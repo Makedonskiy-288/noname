@@ -1,0 +1,43 @@
+.start-btn {
+    position: relative;
+    width: 280px;
+
+    color: $accent-color;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4em;
+    text-align: left;
+
+    @include elipse(-60%, 95%, 130px, 90px, -25.9deg, $secondary-color1, false);
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: $main-color;
+
+        filter: drop-shadow(0px -2px 5px $accent-color)
+            drop-shadow(0px 2px 5px $accent-color)
+            drop-shadow(-2px 0px 5px $accent-color)
+            drop-shadow(2px 0px 5px $accent-color);
+
+        &::after {
+            background-color: $main-color;
+        }
+    }
+
+    &::after {
+        content: "";
+
+        width: 20px;
+        height: 10px;
+        position: absolute;
+        top: 50%;
+        right: 7%;
+
+        background-color: $accent-color;
+        mask-image: url(/img/svg/arrow.svg);
+        mask-size: 100%;
+        transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+        transform: translateY(-50%);
+    }
+}

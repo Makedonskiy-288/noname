@@ -1,0 +1,44 @@
+.founder-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.founder__left {
+}
+.founder__photo-wrapper {
+    position: relative;
+    width: 360px;
+}
+.founder__photo {
+    margin-bottom: 60px;
+
+    @include elipse(
+        -70%,
+        -125%,
+        506px,
+        270px,
+        -150deg,
+        $secondary-color1,
+        true,
+        -1
+    );
+
+    & > img {
+        border-radius: 50px 5px;
+    }
+}
+.founder__photo-text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.7em;
+}
+.founder__right {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.founder__text {
+    & > p {
+        max-width: 360px;
+    }
+}

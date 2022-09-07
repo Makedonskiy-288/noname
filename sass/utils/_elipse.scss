@@ -1,0 +1,39 @@
+@mixin elipse(
+    $top,
+    $left,
+    $width,
+    $height,
+    $rotate,
+    $color: $secondary-color1,
+    $hover: true,
+    $index: 0
+) {
+    &:hover:before {
+        outline: $main-color solid 1px;
+
+        @if $hover {
+            // box-shadow: 0px 0px 40px 1px $accent-color;
+            filter: drop-shadow(0px -2px 5px $accent-color)
+                drop-shadow(0px 2px 5px $accent-color)
+                drop-shadow(-2px 0px 5px $accent-color)
+                drop-shadow(2px 0px 5px $accent-color);
+        }
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: $index;
+
+        top: $top;
+        left: $left;
+        width: $width;
+        height: $height;
+
+        outline: $color solid 1px;
+
+        border-radius: 50%;
+        transform: rotate($rotate) translate(-50%, -50%);
+        transition: outline 0.3s ease-in-out, filter 0.3s ease-in-out;
+    }
+}
