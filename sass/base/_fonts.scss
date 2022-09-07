@@ -1,9 +1,9 @@
 @font-face {
     font-family: "gilroy";
     src: local("gilroy bold"), local("gilroy-bold"),
-        url("/fonts/gilroy/gilroy-bold/gilroy-bold.woff2") format("woff2"),
-        url("/fonts/gilroy/gilroy-bold/gilroy-bold.woff") format("woff"),
-        url("/fonts/gilroy/gilroy-bold/gilroy-bold.ttf") format("truetype");
+        url("../fonts/gilroy/gilroy-bold/gilroy-bold.woff2") format("woff2"),
+        url("../fonts/gilroy/gilroy-bold/gilroy-bold.woff") format("woff"),
+        url("../fonts/gilroy/gilroy-bold/gilroy-bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
@@ -11,9 +11,10 @@
 @font-face {
     font-family: "gilroy";
     src: local("gilroy medium"), local("gilroy-medium"),
-        url("/fonts/gilroy/gilroy-medium/gilroy-medium.woff2") format("woff2"),
-        url("/fonts/gilroy/gilroy-medium/gilroy-medium.woff") format("woff"),
-        url("/fonts/gilroy/gilroy-medium/gilroy-medium.ttf") format("truetype");
+        url("../fonts/gilroy/gilroy-medium/gilroy-medium.woff2") format("woff2"),
+        url("../fonts/gilroy/gilroy-medium/gilroy-medium.woff") format("woff"),
+        url("../fonts/gilroy/gilroy-medium/gilroy-medium.ttf")
+            format("truetype");
     font-weight: 500;
     font-style: normal;
 }
@@ -21,10 +22,11 @@
 @font-face {
     font-family: "gilroy";
     src: local("gilroy semibold"), local("gilroy-semibold"),
-        url("/fonts/gilroy/gilroy-semibold/gilroy-semibold.woff2")
+        url("../fonts/gilroy/gilroy-semibold/gilroy-semibold.woff2")
             format("woff2"),
-        url("/fonts/gilroy/gilroy-semibold/gilroy-semibold.woff") format("woff"),
-        url("/fonts/gilroy/gilroy-semibold/gilroy-semibold.ttf")
+        url("../fonts/gilroy/gilroy-semibold/gilroy-semibold.woff")
+            format("woff"),
+        url("../fonts/gilroy/gilroy-semibold/gilroy-semibold.ttf")
             format("truetype");
     font-weight: 600;
     font-style: normal;
@@ -33,7 +35,7 @@
 @font-face {
     font-family: "benzin";
     src: local("benzin regular"), local("benzin-medium"),
-        url("/fonts/benzin/benzin-medium.ttf") format("truetype");
+        url("../fonts/benzin/benzin-medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
@@ -41,7 +43,7 @@
 @font-face {
     font-family: "benzin";
     src: local("benzin regular"), local("benzin-regular"),
-        url("/fonts/benzin/benzin-regular.ttf") format("truetype");
+        url("../fonts/benzin/benzin-regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
