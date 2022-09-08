@@ -1,6 +1,6 @@
 .hero-bg::before {
     background: linear-gradient(rgba($bg-color, 0.9), rgba($bg-color, 0.9)),
-        url("img/title-bg.jpg") no-repeat center center;
+        url("/img/title-bg.jpg") no-repeat center center;
     background-size: cover;
 
     content: " ";
@@ -23,7 +23,7 @@
     only screen and (min-resolution: 1.3dppx) {
     .hero-bg::before {
         background: linear-gradient(rgba($bg-color, 0.9), rgba($bg-color, 0.9)),
-            url("img/title-bg@2x.jpg") no-repeat center center;
+            url("/img/title-bg@2x.jpg") no-repeat center center;
         background-size: cover;
     }
 }
